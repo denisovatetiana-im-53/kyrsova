@@ -1,2 +1,3 @@
 # kyrsova
- Інтерактивна гра "Guess the Song by Lyrics" (BTS songs)
+Конструктор "Your BTS Playlist Creator"
+Проєкт, що імітує функціонал Spotify.

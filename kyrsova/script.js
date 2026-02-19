@@ -175,10 +175,72 @@ const btsDate = [
 ]},
 
 {
-    artist: "Kim Namjoon (RM)",
+   artist: "Kim Namjoon (RM)",
     type: "Solo",
     songs :[
-        {title : "Intro: Persona", releaseDate: "2019-04-12", album: "Map of the Soul: Persona"},
+        {title : "Voice", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Awakening", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Do You", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Monster", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Throw Away", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Joke", releaseDate: "2015-09-03", album: "RM"},
+        {title : "God Rap", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Rush (feat. Krizz Kaliko)", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Life", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Adrift", releaseDate: "2015-09-03", album: "RM"},
+        {title : "I believe", releaseDate: "2015-09-03", album: "RM"},
+        {title : "Tokyo", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Seoul", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Moonchild", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Badbye (feat. eAeon)", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Uhgood (feat. Lil Cherry)", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Everythingoes (feat. NELL)", releaseDate: "2018-10-23", album: "Mono"},
+        {title : "Forever Rain", releaseDate: "2018-10-23", album: "Mono"},
+
 ]},
+
+{
+    artist: "Kim Seokjin (JIN)",
+    type: "Solo",
+    songs :[
+        {title : "I Need You", releaseDate: "2015-09-03", album: "JIN"},
+        {title : "My Way", releaseDate: "2015-09-03", album: "JIN"},
+        {title : "I'm Not Afraid", releaseDate: "2015-09-03", album: "JIN"},
+        {title : "The Truth About Myself", releaseDate: "2015-09-03", album: "JIN"},
+        {title : "The Truth About Myself (Acoustic Version)", releaseDate: "2015-09-03", album: "JIN"},
+        {title : "The Truth About Myself (Remix)", releaseDate: "2015-09-03", album: "JIN"},
+    ]},
+
+
+    {
+    artist: "Jung Hoseok (J-HOPE)",
+    type: "Solo",
+    songs :[  
+        {title : "Hope World", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "P.O.P (Piece of Peace) pt.1", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Daydream", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Base Line", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Hangsang (feat. Supreme Boi)", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Airplane", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Blue Side (Outro)", releaseDate: "2018-03-02", album: "Hope World"},
+        {title : "Chicken Noodle Soup (feat. Becky G)", releaseDate: "2019-09-27", album: "Hope World"},
+    ]},
+
+    {
+    artist: "Park Jimin (JIMIN)",
+    type: "Solo",
+    songs :[
+        {title : "Like Crazy", releaseDate: "2015-09-03", album: "JIMIN"},
+        {title : "I'm Not Afraid", releaseDate: "2015-09-03", album: "JIMIN"},
+        {title : "The Truth About Myself", releaseDate: "2015-09-03", album: "JIMIN"},
+        {title : "The Truth About Myself (Acoustic Version)", releaseDate: "2015-09-03", album: "JIMIN"},
+        {title : "The Truth About Myself (Remix)", releaseDate: "2015-09-03", album: "JIMIN"},
+    ]},
+
+
+
+
+
+
 
 ];

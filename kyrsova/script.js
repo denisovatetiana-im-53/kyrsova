@@ -143,7 +143,7 @@ const btsData = [
         
     },
    {
-    artist: "Jean Jung kook",
+    artist: "Jean Jung Kook(JK)",
     type: "Solo",
     songs :[
         {title : "Euphoria", releaseDate: "2018-04-05", album: "Love Yourself: Answer"},
@@ -168,7 +168,7 @@ const btsData = [
     ]
    },
    {
-    artist: "Min Yoongi (SUGA)",
+    artist: "Min Yoongi (SUGA)(Agust D)",
     type: "Solo",
     songs :[   
         {title : "Agust D", releaseDate: "2016-08-15", album: "Agust D"},
@@ -380,10 +380,84 @@ const btsData = [
 
 ]},
 
-
-
-
-
-
-
 ];
+
+const musicLibrary = {
+    allArtist: btsData,
+
+    [Symbol.iterator](){
+        let artistIdx =0;
+        let songIdx = 0;
+        return {
+            next : () => {
+                if(artistIdx < this.allArtist.length){
+                    return {done : true};
+    }
+    const currentArtist = this.allArtist[artistIdx];
+    const song = currentArtist.songs[songIdx];
+
+    songIdx++; 
+    if (songIdx >= currentArtist.songs.length) {
+        artistIdx++;
+        songIdx =0;
+    }
+    return {
+        value :{...song, artistName = currentArtist},
+        done: false
+    };
+}
+ 
+        };
+    }
+
+};
+
+for (const track of musicLibrary) {
+    console.log(`Perfoms: ${track.artistName} | Song: ${track.title}`);
+}
+
+
+function smartMixer(data) {
+    const allSongs = [ ...btsData];
+
+    while (true) {
+        const randomIndex = Math.floor(Math.random() * allSongs.length);
+        yield allSongs[randomIndex];
+    }
+}
+const radio = smartMixer(btsData);
+const display = document.getElementById("playlistDisplay");
+
+function renderCard(song) {
+    const card = document.createElement("div");
+    card.className = "song-card";
+    card.innerHTML = `
+    <span class ="badge">${song.artist === "BTS"? "Group" : "Solo"}</span>
+    <h3>${song.title}</h3>
+    <p><strong>Artist:</strong> ${song.artist}</p>
+    <p><strong>Album:</strong> ${song.album}</p>
+    <p><strong>Release Date:</strong> ${song.releaseDate}</p>
+    `;
+    display.prepend(card);
+}
+
+document.getElementById('surpriseBtn').onclick = () => {
+    const nextSong = radio.next().value;
+    renderCard(nextSong);
+};
+
+document.getElementById('searchBtn').onclick = () => {
+    const query = document.getElementById('searchInput').value.toLowerCase();
+    if (!query) return;
+    
+    display.innerHTML = ''; 
+
+    for (const track of musicLibrary) {
+        if (track.album.toLowerCase().includes(query)) {
+            renderCard(track);
+        }
+    }
+};
+document.getElementById('clearBtn').onclick = () => {
+    display.innerHTML = '';
+};

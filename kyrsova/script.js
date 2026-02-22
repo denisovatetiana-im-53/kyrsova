@@ -256,11 +256,7 @@ const btsDate = [
         {title : "LOST!", releaseDate: "2024-05-10", album: "Right Place, Wrong Person"},
         {title : "Around the world in a day(feat. Moses Sumney", releaseDate: "2024-05-10", album: "Right Place, Wrong Person"},
         {title : "Neva Play(feat. Megan Thee Stallion)", releaseDate: "2024-09-06", album: "Right Place, Wrong Person"},
-        
-
-
-
-
+       
 
 ]},
 
@@ -279,8 +275,7 @@ const btsDate = [
         {title : "Falling", releaseDate: "2024-11-15", album: "Happy"},
         {title : "Heart on the Window(feat. WENDY)", releaseDate: "2024-11-15", album: "Happy"},
         {title : "I will come to you", releaseDate: "2024-11-15", album: "Happy"},
-        {title : "Close to you", releaseDate: "2025-01-26", album: "Close to you"},
-        {title : "Rope It", releaseDate: "2025-05-15", album: "Echo"}
+        {title : "Rope it"}
 
     ]},
 
@@ -314,19 +309,17 @@ const btsDate = [
         {title : "I don`t Know(feat. HUH Yunjin)", releaseDate: "2024-03-29", album: "Hope On The Street"},
         {title : "I wonder...(feat. Jung Kook)", releaseDate: "2024-03-29", album: "Hope On The Street"},
         {title : "Neuron", releaseDate: "2024-03-29", album: "Hope On The Street"},
-        {title : "LV Bag (feat. Don Toliver,Pharell Williams", releaseDate: "2025-02-21", album: "LV Bag"},
         {title : "LV Bag (feat. Don Toliver,Pharell Williams)", releaseDate: "2025-02-21", album: "LV Bag"},
         {title : "Sweet Dreams (feat. Miguel)", releaseDate:"2025-03-07", album: "Charm of HOPE"},
         {title : "MONA LISA", releaseDate :"2025-02-21", album: "Charm of HOPE"},
         {title : "Killin' It Girl (feat.GloRilla)", releaseDate: "2025-06-13", album: "Charm of HOPE"},
-        {title : "SPAGHETTI (feat.LE SSERAFIM)", releaseDate: "2025-10-24", album: "SPAGHETTI (feat.LE SSERAFIM)"}
-
+        {title : "SPAGHETTI (feat.LE SSERAFIM)", releaseDate: "2025-10-24", album: "SPAGHETTI (feat.LE SSERAFIM)"},
 
     ]},
 
     {
     artist: "Park Jimin (JIMIN)",
-    type : "Solo",
+    type: "Solo",
     songs :[
         {title : "Like Crazy", releaseDate: "2015-09-03", album: "Face"},
         {title : "Cristmas Love", releaseDate: "2015-09-03", album: "JIMIN"},

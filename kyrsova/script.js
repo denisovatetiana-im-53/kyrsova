@@ -1,4 +1,4 @@
-const btsDate = [
+const btsData = [
     {
         artist: "BTS",
         type: "Group",

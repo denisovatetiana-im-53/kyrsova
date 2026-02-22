@@ -279,8 +279,8 @@ const btsDate = [
         {title : "Falling", releaseDate: "2024-11-15", album: "Happy"},
         {title : "Heart on the Window(feat. WENDY)", releaseDate: "2024-11-15", album: "Happy"},
         {title : "I will come to you", releaseDate: "2024-11-15", album: "Happy"},
-        {title : "Close to you", releaseDate: "2025-01-26", album: "Close to you"}
-
+        {title : "Close to you", releaseDate: "2025-01-26", album: "Close to you"},
+        {title : "Rope It", releaseDate: "2025-05-15", album: "Echo"}
 
     ]},
 

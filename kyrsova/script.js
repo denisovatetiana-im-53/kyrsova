@@ -256,6 +256,7 @@ const btsDate = [
         {title : "LOST!", releaseDate: "2024-05-10", album: "Right Place, Wrong Person"},
         {title : "Around the world in a day(feat. Moses Sumney", releaseDate: "2024-05-10", album: "Right Place, Wrong Person"},
         {title : "Neva Play(feat. Megan Thee Stallion)", releaseDate: "2024-09-06", album: "Right Place, Wrong Person"},
+        {title : "Stop to Rain (feat. TABLO)", releaseDate: "2024-09-06", album: "Right Place, Wrong Person"}
        
 
 ]},
@@ -275,7 +276,20 @@ const btsDate = [
         {title : "Falling", releaseDate: "2024-11-15", album: "Happy"},
         {title : "Heart on the Window(feat. WENDY)", releaseDate: "2024-11-15", album: "Happy"},
         {title : "I will come to you", releaseDate: "2024-11-15", album: "Happy"},
-        {title : "Rope it"}
+        {title : "Rope it" , releaseDate: "2024-11-15", album: "Echo"},
+        {title : "School of Tears(feat. SUGA, RM)", releaseDate: "2024-11-15", album: "Echo"},
+        {title : "Adult Child(feat. SUGA,RM)", releaseDate: "2024-11-15", album: "Echo"},
+        {title : "Tonight", releaseDate: "2019-06-15", album: "Echo"},
+        {title : "You`re My", releaseDate: "2019-06-15", album: "Echo"},
+        {title : "Epiphany", releaseDate: "2018-09-18", album: "Love Yourself: Answer"},
+        {title : "Close To You", releaseDate: "2018-09-18", album: "Love Yourself: Answer"},
+        {title : "Echo", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "Don`t Say You Love Me", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "Loser(feat. YENA)", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "Nothing Without Your Love", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "With the clouds", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "Background", releaseDate: "2025-05-25", album: "Echo"},
+        {title : "To Me,Today", releaseDate: "2025-05-25", album: "Echo"},
 
     ]},
 
@@ -338,6 +352,9 @@ const btsDate = [
         {title : "Slow Dance(feat. Sofia Carson)", releaseDate: "2024-07-19", album: "Muse"},
         {title : "Rebirth", releaseDate: "2024-07-19", album: "Muse"},
         {ttile : "Intrlude: Snowtime", releaseDate: "2024-07-19", album: "Muse"},
+        {title : "Tony Montana (feat. SUGA)", releaseDate: "2024-07-19", album: "Muse"},
+        {title : "Promise", releaseDate: "2024-07-19", album: "Muse"},
+        {title : "Christmas Love", releaseDate: "2015-09-03", album: "JIMIN"},
 
     ]},
 
